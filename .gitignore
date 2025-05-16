@@ -1,0 +1,33 @@
+# CryptoAgent/.gitignore
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE and OS specific
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Trained models (can be large)
+trained_models/
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.json # If storing feature lists etc. in trained_models
+
+# Logs
+*.log
+
+# Excel data (if you don't want to commit large raw data files)
+# crypto_data_excel/ # Optional: if your excel files are very large
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints

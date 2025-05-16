@@ -1,0 +1,25 @@
+# CryptoAgent/requirements.txt
+pandas
+numpy
+scikit-learn
+tensorflow
+openpyxl # Needed by pandas to read/write Excel .xlsx files
+matplotlib
+seaborn # Optional, but good for some plots
+shap      # For explainable AI
+
+
+# Streamlit front-end
+streamlit>=1.26.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.0.0          # for Excel loading
+
+# Machine learning / forecasting
+scikit-learn>=1.2.0
+torch>=2.0.0             # if your TransformerEncoderLayer & autoencoder use PyTorch
+
+# (Optional) plotting/logging if you use them elsewhere
+matplotlib>=3.7.0
